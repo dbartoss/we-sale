@@ -45,3 +45,11 @@ This gives us a huge flexibility:
 4. Frontend (Browser Plugin)
     a. act as an employee
     b. evaluate emails, posts etc
+
+## Tools
+
+1. Python for AI
+2. TypeScript for Frontend and Backend
+3. Using Bun as major JavaScript runtime
+4. Before the offical release testing on premise
+4. Cloud -> TBD, most probably GCP, Digital Ocean
