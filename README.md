@@ -1,8 +1,9 @@
-# We Sale v2
+# We Sale
 
-Back in the day we have built a WeSale, voice and text recognition tool for direct sellers.
-When building the product, there were almost none well supported and "battle-tested" NLP tools and models.
-DialogFlow which we were using was supporting only the engilish language, so after a few years things have changed.
+Back in the day we have built a WeSale, voice and text recognition tool for sellers and marketers to evalute the quality of conversation.
+
+When building the product, there were none well supported and "battle-tested" NLP tools and models.
+DialogFlow was supporting only the engilish language, so after a few years things have changed.
 There is a lot of different tools and models now, so we can use for it to support our clients with enormous accuracy.
 
 ## Idea
@@ -23,3 +24,24 @@ This gives us a huge flexibility:
 3. Voice
     a. direct sellers
     b. phone calls (call centers etc.)
+
+## Product
+
+### V1
+
+1. NLP Models
+    a. for text processing
+2. API
+    a. for storing company's scenarios in the Database
+    b. for traning models based on scenarios
+    c. for monitoring the accuracy of conversations and the benefits from using WeSale
+    d. for managing company's employees accounts and seeing their individual statistics
+
+### Next steps
+
+3. Frontend (PWA)
+    a. act as an employee
+    b. evaluate discussions in live using chatbot (to be extended to voice recognition tool in the future)
+4. Frontend (Browser Plugin)
+    a. act as an employee
+    b. evaluate emails, posts etc
