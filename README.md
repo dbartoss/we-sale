@@ -14,37 +14,41 @@ There is a lot of different tools and models now, so we can use for it to suppor
 
 This gives us a huge flexibility:
 1. We can process any texts and voice
-    a. MVP will consist of text processing only to simplify
-    b. Voice processing will be a v2, since transforming Voice to Text is already a technical curve to tackle
+    - MVP will consist of text processing only to simplify
+    - Voice processing will be a v2, since transforming Voice to Text is already a technical curve to tackle
+
 2. It can be used in various scenarios (text)
-    a. emails (cold mailing, targetted mails etc.)
-    b. posts (blogs, social media etc.)
-    c. chatbots (to help AI tools to be more precised with communication with a human)
-    d. chats (were a human is on the "other side")
+    - emails (cold mailing, targetted mails etc.)
+    - posts (blogs, social media etc.)
+    - chatbots (to help AI tools to be more precised with communication with a human)
+    - chats (were a human is on the "other side")
+
 3. Voice
-    a. direct sellers
-    b. phone calls (call centers etc.)
+    - direct sellers
+    - phone calls (call centers etc.)
 
 ## Product
 
 ### V1
 
 1. NLP Models
-    a. for text processing
+    - for text processing
+
 2. API
-    a. for storing company's scenarios in the Database
-    b. for traning models based on scenarios
-    c. for monitoring the accuracy of conversations and the benefits from using WeSale
-    d. for managing company's employees accounts and seeing their individual statistics
+    - for storing company's scenarios in the Database
+    - for traning models based on scenarios
+    - for monitoring the accuracy of conversations and the benefits from using WeSale
+    - for managing company's employees accounts and seeing their individual statistics
 
 ### Next steps
 
 3. Frontend (PWA)
-    a. act as an employee
-    b. evaluate discussions in live using chatbot (to be extended to voice recognition tool in the future)
+    - act as an employee
+    - evaluate discussions in live using chatbot (to be extended to voice recognition tool in the future)
+
 4. Frontend (Browser Plugin)
-    a. act as an employee
-    b. evaluate emails, posts etc
+    - act as an employee
+    - evaluate emails, posts etc
 
 ## Tools
 
