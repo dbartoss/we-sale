@@ -54,6 +54,20 @@ This gives us a huge flexibility:
 
 1. Python for AI
 2. TypeScript for Frontend and Backend
-3. Using Bun as major JavaScript runtime
-4. Before the offical release testing on premise
-4. Cloud -> TBD, most probably GCP, Digital Ocean
+3. Using Node.js as major JavaScript runtime
+    - Bun comes into consideration due to being v1.0.0 recently, but it still does not support such a features like WebSockets, Performance Observers etc. so it does not make sense to use it now
+    - Deno is not that interesting, since it's native frameworks are not so pleasnt and they have rather a small community, Node frameworks sadly have huge performance drawbacks in some cases
+4. Using v20 of Node.js
+    - instead of LTS because that's a greenfield
+5. Using Svetle Kit for frontend
+    - as SPA with possiblity to extend that to PWA in the future
+
+6. Before the offical release testing on premise
+    - Cloud -> TBD, most probably GCP or Digital Ocean
+
+
+## Maintenance Decisions
+
+1. To deliver the MVP faster let's make a monorepo
+    - in the future it can make sense to separate Python code from the rest
+2. All the JS packages should be inside workspaces
