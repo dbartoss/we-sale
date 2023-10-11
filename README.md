@@ -50,7 +50,7 @@ This gives us a huge flexibility:
     - act as an employee
     - evaluate emails, posts etc
 
-## Tools
+## Technical Decisions
 
 1. Python for AI
 2. TypeScript for Frontend and Backend
@@ -61,9 +61,48 @@ This gives us a huge flexibility:
     - instead of LTS because that's a greenfield
 5. Using Svetle Kit for frontend
     - as SPA with possiblity to extend that to PWA in the future
-
 6. Before the offical release testing on premise
     - Cloud -> TBD, most probably GCP or Digital Ocean
+
+#### AI
+
+1. Use Python 3.12
+    - pandas
+    - keras
+
+#### Backend
+
+1. Use TypeScript 5.2
+    - Fastify@latest
+    - Node v20
+
+#### Frontend
+
+1. Use TypeScript 5.2
+    - Svetle Kit@latest
+    - Vite@latest
+    - Node v20
+    - SPA
+    - PWA (not as MVP)
+
+#### Package Managers
+
+1. Due to Bun not being battle-tested and without support for WebSockets we have to leave with Node.js package mangers
+2. Since we need to live without Bun the choice is PNPM due to its great performance and support
+
+
+#### Continues Integration
+
+1. Use CircleCI due to its maturity and great support
+
+#### Monorepo package manager
+
+1. Turborepo due to its support to the CircleCI, rising community and great performance
+
+#### Hosting
+
+1. Before the official release it will be hosted on premise
+2. Then maybe moved to cloud like GCP or even Digital Ocean due to costs reasons
 
 
 ## Maintenance Decisions
@@ -73,7 +112,7 @@ This gives us a huge flexibility:
 2. All the JS packages should be inside workspaces
 
 
-## Structure
+## Root Folder Structure
 
     .
     ├── ci                      # Continues Integration settings
