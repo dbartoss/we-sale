@@ -71,3 +71,13 @@ This gives us a huge flexibility:
 1. To deliver the MVP faster let's make a monorepo
     - in the future it can make sense to separate Python code from the rest
 2. All the JS packages should be inside workspaces
+
+
+## Structure
+
+    .
+    ├── ci                      # Continues Integration settings
+    ├── docs                    # Unrelated project documentation
+    ├── modules                 # Source Code
+    ├── scripts                 # Scripts for local environment
+    └── README.md
